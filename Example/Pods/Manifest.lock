@@ -1,0 +1,28 @@
+PODS:
+  - Components (0.1.7)
+  - IAP (0.1.0):
+    - Components (~> 0.1.0)
+    - RevenueCat (= 4.10.3)
+  - RevenueCat (4.10.3)
+
+DEPENDENCIES:
+  - IAP (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - RevenueCat
+  https://github.com/retro-labs/specs-ios-swift.git:
+    - Components
+
+EXTERNAL SOURCES:
+  IAP:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Components: 3094e103595319d42240a78d55a3d1683220403d
+  IAP: 42286d77330cfdb32a0d3b01d3dfe15924b14515
+  RevenueCat: d7eebfbb528cd53e6272bcf81e025b7ed55e50e5
+
+PODFILE CHECKSUM: 8ced6f80b505341f409b6b3efb742502780118db
+
+COCOAPODS: 1.11.3

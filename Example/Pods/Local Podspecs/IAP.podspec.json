@@ -1,0 +1,36 @@
+{
+  "name": "IAP",
+  "version": "0.1.0",
+  "summary": "A short description of IAP.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lidong@smalltreemedia.com/IAP",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lidong@smalltreemedia.com": "lidong@smalltreemedia.com"
+  },
+  "source": {
+    "git": "https://github.com/lidong@smalltreemedia.com/IAP.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": [
+    "IAP/Classes/**/*",
+    "IAP/*.swift"
+  ],
+  "static_framework": true,
+  "swift_versions": "5.0",
+  "dependencies": {
+    "RevenueCat": [
+      "4.11.0"
+    ],
+    "Components": [
+      "~>0.1.0"
+    ]
+  },
+  "swift_version": "5.0"
+}

@@ -1,0 +1,6 @@
+framework module Components {
+  umbrella header "Components-umbrella.h"
+
+  export *
+  module * { export * }
+}

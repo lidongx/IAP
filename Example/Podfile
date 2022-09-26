@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '13.0'
+
+source "https://github.com/retro-labs/specs-ios-swift.git"
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'IAP_Example' do
+  pod 'IAP', :path => '../'
+
+  
+  
+end
